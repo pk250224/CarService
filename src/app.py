@@ -9,13 +9,10 @@ import pandas as pd
 
 #ai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
 
-ai.configure(api_key='AIzaSyCv-aW0wS9pCujlXiKe1Ttxlpz0jn0TbpQ')
+ai.configure(api_key='AIzaSyCv-')
 #Define Model Instance
 model = ai.GenerativeModel('gemini-pro')
-history=[
-        {"role": "user", "parts": "Hello, I am Pardeep"},
-        {"role": "model", "parts": "Great to meet you. What would you like to know?"},
-    ]
+
 chat = model.start_chat(history=[])
 
 # print(chat)
@@ -54,4 +51,4 @@ def chatbot(message, history):
  # print(context)
   return response
 
-gr.ChatInterface(fn=chatbot, examples=["Personal Loan", "Home Loan", "Car Loan"], title='Loan Automate Service').launch(debug=True, share=True)
+gr.ChatInterface(fn=chatbot, title='Used Car Marketplace').launch(debug=True, share=True)

@@ -1,3 +1,4 @@
-Company,Model,Car,Price,Owner,Fuel type
-Maruti,2024,Alto 800,350000,2nd Owner,Patrol
-Hundai,2023,I10,300000,1st Owner,CNG
+Company,Model,Car,Price,Owner,Fuel type,KM Run
+Maruti,2024,Alto 800,350000,2nd Owner,Patrol,40000
+Hundai,2023,I10,300000,1st Owner,CNG,50000
+Hundai,2023,I20,500000,1st Owner,CNG,20000
