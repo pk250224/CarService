@@ -9,7 +9,7 @@ import pandas as pd
 
 #ai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
 
-ai.configure(api_key='AIzaSyCv-')
+ai.configure(api_key='AIzaSyCv-aW0wS9pCujlXiKe1Ttxlpz0jn0TbpQ')
 #Define Model Instance
 model = ai.GenerativeModel('gemini-pro')
 

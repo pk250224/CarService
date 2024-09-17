@@ -13,6 +13,13 @@ Gemini
 Gradio
 Colab
 
+
+![alt text](/src/images/chatbot_Car.png)
+
+
+
+
+
 Getting Started:
 
 1. Create Virtual environment:
