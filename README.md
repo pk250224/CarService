@@ -14,7 +14,7 @@ Gradio
 Colab
 
 
-![alt text](/src/images/chatbot_Car.png)
+![alt text](/src/images/chatbot_Car2.png)
 
 
 
